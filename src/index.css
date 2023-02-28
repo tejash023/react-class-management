@@ -1,13 +1,55 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: auto 5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.class-details {
+  display: flex;
+  gap: 1rem;
+}
+
+.class-info {
+  background-color: orangered;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 25%;
+}
+
+.class-info > button {
+  margin-right: 5px;
+  border: 1px solid white;
+  color: white;
+  background-color: orangered;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.enrolled-students {
+  background-color: rgba(245, 245, 220, 0.486);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px 5px;
+}
+
+.enrolled-students > li {
+  list-style: none;
+}
+
+.add-class > button {
+  outline: none;
+  background-color: orangered;
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
